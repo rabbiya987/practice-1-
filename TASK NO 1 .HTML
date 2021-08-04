@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP </title>
+</head>
+<body>
+    <h1>SIGN UP FORM</h1>
+    <form action="backend.php">
+      <label for="name">NAME</label>
+      <div>
+        <input type="text" name="myname" id="name">
+      </div>
+      <br>
+      <label for="myroll">ROLL NO </label>
+      <div>
+        <input type="value" name="myroll" id="myroll">
+      </div>
+      <br>
+      <label for="EMAIL">EMAIL </label>
+      <div>
+        <input type="email" name="myemail" id="EMAIL">
+      </div>
+      <br>
+      <label for="DATE">BIRTHDAY</label>
+      <div>
+        <input type="date" name="mydate" id="DATE">
+      </div>
+      <br>
+      <label for="BONUS">BONUS</label>
+      <div>
+        <input type="number" name="bonus" id="BONUS">
+      </div>
+      <br>
+      <label for="ARE YOU ">ARE YOU ABOVE 18 ?</label>
+      <div>
+        <input type="checkbox" name="myage" id="ARE YOU ">
+      </div>
+      <br>
+        <div>
+          GENDER: MALE<input type="radio" name="mygender" id="MALE"> FEMALE <input type="radio" name="mygender" id="FEMALE">
+        </div>
+        <br>
+        <div>
+          WRITE ABOUT YOURSELF: <BR> <textarea name="yourself" cols="60" rows="10"></textarea>
+          </div>
+          <br>
+          <div>
+            <label for="COUNTRY">MY COUNTRY</label>
+            <select name="COUNTRY" id="COUNTRY">
+            <option value="PAKISTAN">PAKISTAN</option>
+            <option value="INDIA">INDIA</option>
+            <option value="TURKEY">TURKEY</option>
+            </select>
+          </div>
+          <br>
+        <div>
+          <!-- submit ka button  -->
+          <input type="submit" value="submit now">
+          <input type="reset" value="rest now ">
+        </div>
+      </form>
+</body>
+</html>
